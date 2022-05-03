@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500|PT+Sans+Narrow:400,700|Play:400,700|Ubuntu+Condensed&display=swap&subset=cyrillic');
+
+.headd{
+    margin: 0;
+    padding: 40px;
+}
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+ul, li {
+list-style: none;
+}
+
+body {
+
+height: 100%;
+background: #041C32;
+font-family: 'Oswald', sans-serif;  
+}
+
+.container {
+
+display: flex;
+flex-direction: column;
+height: 100%;
+width: 100%;
+min-width: 480px;
+color: #041C32;
+}
+
+.breadcrumb {
+display: flex;
+border-radius: 10px;
+margin: auto;
+text-align: center;
+top: 50%;
+width: 100%;
+height: 40px;
+transform: translateY(-50%);
+z-index: 1;
+justify-content: center;
+}
+
+
+.breadcrumb__item {
+height: 100%;
+background-color: #064663;
+color: white;
+font-family: 'Oswald', sans-serif;
+border-radius: 7px;
+letter-spacing: 1px;
+transition: all 0.3s ease;
+text-transform: uppercase;
+position: relative;
+display: inline-flex;
+justify-content: center;
+align-items: center;
+font-size: 22px;
+transform: skew(-21deg);
+box-shadow: 0 2px 5px rgba(0,0,0,0.26);
+margin: 17px;
+margin-left: 40px;
+padding: 0 60px;
+cursor: pointer;
+}
+
+
+.breadcrumb__item:hover {
+background: #ECB365;
+color: #064663;
+}
+
+
+.breadcrumb__inner {
+display: flex;
+flex-direction: column;
+margin: auto;
+z-index: 2;
+transform: skew(21deg);  
+}
+
+
+
+
+@media all and (max-width: 1000px) {
+.breadcrumb {
+height: 35px;
+}
+
+.breadcrumb__title{
+font-size: 11px;
+}
+.breadcrumb__item {
+padding: 0 30px;
+}
+}
+
+@media all and (max-width: 710px) {
+.breadcrumb {
+height: 30px;
+}
+.breadcrumb__item {
+padding: 0 20px;
+}
+
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
