@@ -7,15 +7,21 @@ import { HeaderComponent } from './components/header/header.component';
 import { SearchComponent } from './components/search/search.component';
 import { AboutusComponent } from './components/aboutus/aboutus.component';
 import { FormsModule } from '@angular/forms';
+import { FAQSComponent } from './components/faqs/faqs.component';
+import { HttpClientModule } from '@angular/common/http';
+import { LatestComponent } from './components/latest/latest.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     SearchComponent,
-    AboutusComponent
+    AboutusComponent,
+    FAQSComponent,
+    LatestComponent
   ],
   imports: [
+    HttpClientModule,
     BrowserModule,
     AppRoutingModule,
     FormsModule
