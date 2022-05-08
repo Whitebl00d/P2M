@@ -53,3 +53,5 @@ h1 span {
 	font-size: 40px;
 	font-weight: 300;
 }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

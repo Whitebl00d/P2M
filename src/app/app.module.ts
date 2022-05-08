@@ -10,6 +10,8 @@ import { FormsModule } from '@angular/forms';
 import { FAQSComponent } from './components/faqs/faqs.component';
 import { HttpClientModule } from '@angular/common/http';
 import { LatestComponent } from './components/latest/latest.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { LatestComponent } from './components/latest/latest.component';
     HttpClientModule,
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    BrowserAnimationsModule,
+    MatProgressSpinnerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
