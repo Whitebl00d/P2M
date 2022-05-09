@@ -1,14 +1,15 @@
 
 <h1>Phishing  Detection<span>- Based on ML -</span></h1>
 	<div class="search-box">
-		<button class="btn-search" (click)="onSearch()">CLICK HERE</button>
+		<button class="btn-search" (click)="onSearch()" >CLICK HERE</button>
 		<input type="text" class="input-search" placeholder="Put The Link Here..." [(ngModel)]="url">
+
+		<div *ngIf="check">
+			URL format is wrong
+		</div>
 	</div>
+
 <div *ngIf="loading" class="loader-container">
 	<mat-spinner style="top:50%; left:50%"></mat-spinner>
 	<h1 style="top:70%; left:55%"> Loading ...</h1>
-</div>
-
-<div *ngIf="result" class="result">
-	HELOO
 </div>

@@ -1,0 +1,20 @@
+
+
+  <div class="container" *ngIf="loading">
+    <div  class="Loading"></div>
+  </div>
+
+<div *ngIf="result" class="result">
+	
+    <div class="content">
+      <h1>{{Result.prediction}}</h1>
+      <h1>{{Result.prediction}}</h1>
+
+    
+    </div>
+    
+	{{Result.url}}
+	{{Result.data.comments}}
+    {{Result.data.hostname}}
+
+</div>

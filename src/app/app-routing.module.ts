@@ -5,6 +5,7 @@ import { AboutusComponent } from './components/aboutus/aboutus.component';
 import { SearchComponent } from './components/search/search.component';
 import { FAQSComponent } from './components/faqs/faqs.component';
 import { LatestComponent } from './components/latest/latest.component';
+import { PreditingComponent } from './components/prediting/prediting.component';
 const routes: Routes = [
   {
     path:'aboutus', 
@@ -22,7 +23,12 @@ const routes: Routes = [
   {
     path: 'latest',
     component:LatestComponent
+  },
+  {
+    path: 'predict',
+    component:PreditingComponent
   }
+
 ];
 
 @NgModule({

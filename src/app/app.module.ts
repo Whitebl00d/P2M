@@ -12,6 +12,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { LatestComponent } from './components/latest/latest.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
+import { PreditingComponent } from './components/prediting/prediting.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
     SearchComponent,
     AboutusComponent,
     FAQSComponent,
-    LatestComponent
+    LatestComponent,
+    PreditingComponent
   ],
   imports: [
     HttpClientModule,
