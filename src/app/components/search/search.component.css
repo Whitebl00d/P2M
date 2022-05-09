@@ -22,7 +22,7 @@ body{
   transition: all .5s ease-in-out;
   background-color: #22a6b3;
   padding-right: 40px;
-  color:#22a6b3;
+  color:white;
   text-align: center;
   text-transform: uppercase;
   cursor: pointer;
@@ -82,9 +82,18 @@ body{
   z-index: 99;
 }
 
-.error{
-  background-color: #064663;
-  width: 100px;
+
+.mess{
+  padding-top: 20px;
+  color: whitesmoke;
   text-transform: uppercase;
-  letter-spacing: 4px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+
+
+}
+.here{
+  font-family: 'Oswald', sans-serif;
+  font-size :22px ;
+  width: 250px;
 }
